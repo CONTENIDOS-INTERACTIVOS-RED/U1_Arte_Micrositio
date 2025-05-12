@@ -81,6 +81,20 @@ export default {
         ],
       },
       {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Eventos culturales-artísticos online',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Las siete artes',
+          },
+        ],
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
