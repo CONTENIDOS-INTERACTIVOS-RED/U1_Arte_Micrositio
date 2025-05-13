@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Patrimonio mundial',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'El despertar del arte',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'El arte en las culturas orientales',
             hash: 't_1_2',
           },
         ],
@@ -36,26 +36,15 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Exhibiciones y visitas a centros culturales y artísticos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo:
+              'Los museos, espacios para la conservación, educación y fortalecimiento de la identidad',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
           },
         ],
       },
@@ -63,20 +52,14 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Talleres y cursos virtuales de arte y cultura',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Pistas sobre el arte en Colombia',
             hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
           },
         ],
       },
@@ -84,7 +67,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Eventos culturales-artísticos online',
+        titulo: 'Eventos culturales-artísticos <em>online</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -132,26 +115,77 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'UNESCO. (S/A). Cultura. Proteger el patrimonio y fomentar la creatividad.',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://www.unesco.org/es/culture#:~:text=Desde%20los%20c%C3%A9lebres%20monumentos%20hist%C3%B3ricos,conducir%20a%20una%20paz%20duradera.',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'INSTITUTO DE GESTIÓN CULTURAL Y ARTÍSTICA. (2021). Patrimonio material e inmaterial: definición, diferencias y ejemplos.',
+      link:
+        'https://igeca.net/blog/389-patrimonio-material-e-inmaterial-definicion-diferencias-y-ejemplos#:~:text=Volviendo%20a%20las%20definiciones%2C%20el,determinado%20lugar%20o%20grupo%20social',
+    },
+    {
+      referencia: 'EVE+INNOVACIÓN. (2025). Museos y exposiciones.',
+      link:
+        'http://efaidnbmnnibpcajpcglclefindmkaj/https://evemuseografia.com/wp-content/uploads/2024/12/CATALOGO-2025-ESP-FINAL.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Arte',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Es la capacidad, destreza o habilidad para hacer algo, como la manifestación de la creatividad humana a través de expresiones visuales, sonoras o plásticas como la pintura, la escultura, la música, la literatura, entre otras.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Cultura',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Conjunto de conocimientos, creencias, costumbres, artes, leyes, valores, y hábitos compartidos por un grupo de personas, que son transmitidos de generación en generación. Es la forma de vida de una sociedad o grupo, que incluye tanto lo material como lo intangible.',
+    },
+    {
+      termino: 'Exhibición de arte',
+      significado:
+        'Evento en el que se muestran al público obras de arte de uno o varios artistas. Estas exhibiciones pueden ser permanentes o temporales y suelen tener lugar en galerías de arte, museos o espacios públicos.',
+    },
+    {
+      termino: 'Historia',
+      significado:
+        'Disciplina que estudia los acontecimientos pasados de la humanidad, basándose en documentos, registros, o testimonios confiables, para dar pruebas de lo ocurrido y sustentar las narraciones e interpretaciones escritas por los historiadores.',
+    },
+    {
+      termino: 'Impresionismo',
+      significado:
+        'Movimiento artístico del siglo XIX que buscaba reproducir los efectos de luz y sombra en el momento exacto en que era observada. Significó un desafío a las convenciones académicas de su época, que imponían un modelo de representación detallista e idealizado.',
+    },
+    {
+      termino: 'Identidad cultural',
+      significado:
+        'Sentido de pertenencia a un grupo social, caracterizado por el compartir costumbres, valores, creencias y tradiciones, que se recrean y se enriquecen a través del tiempo. La cultura, por otro lado, es el conjunto de formas de vida, valores y creencias que definen a un grupo social y que se transmiten de generación en generación.',
+    },
+    {
+      termino: 'Memoria cultural',
+      significado:
+        'Forma en que una sociedad transmite y conserva su conocimiento, historia, valores y prácticas a través de generaciones. Se manifiesta a través de tradiciones, ritos, textos, lugares y otros símbolos.',
+    },
+    {
+      termino: 'Museo',
+      significado:
+        'Institución sin fines de lucro que, de forma permanente, investiga, recopila, conserva, interpreta y exhibe el patrimonio tangible e intangible para la sociedad.',
+    },
+    {
+      termino: 'Patrimonio',
+      significado:
+        'Conjunto de bienes, derechos y obligaciones de una persona o entidad, que pueden ser evaluados económicamente.',
+    },
+    {
+      termino: 'Patrimonio inmaterial',
+      significado:
+        'Prácticas, representaciones, expresiones, conocimientos y habilidades, así como los instrumentos, objetos y artefactos, y espacios culturales asociados, que las comunidades, los grupos y en algunos casos los individuos reconocen como parte integrante de su patrimonio cultural.',
+    },
+    {
+      termino: 'Patrimonio material',
+      significado:
+        'Patrimonio tangible, se refiere a los bienes culturales físicos, tanto muebles como inmuebles, que han sido creados por sociedades en el pasado y que son parte de su legado.',
     },
   ],
 }

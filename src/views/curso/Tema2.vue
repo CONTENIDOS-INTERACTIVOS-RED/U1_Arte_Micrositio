@@ -209,15 +209,23 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+                a(href="https://www.louvre.fr/es/visitas-virtuales" target="_blank" rel="noopener noreferrer") Museo de Louvre (Francia).
   
               p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.museodelprado.es/visita-virtual-coleccion-2023" target="_blank" rel="noopener noreferrer") Museo del Prado. (España).
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://inba.gob.mx/sitios/recorridos-virtuales/museo-palacio-bellas-artes/" target="_blank" rel="noopener noreferrer") Palacio de Bellas Artes. (México).
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=KkgHxtqGSok" target="_blank" rel="noopener noreferrer") LA CÁMARA DEL ARTE. (2024, 19 de noviembre). Adivina la pintura | Quiz/Trivia/Test/Arte. [Video] YouTube.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://historia-arte.com/movimientos" target="_blank" rel="noopener noreferrer") Historia/Arte HA. Movimientos. Plataforma de Historia del Arte.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

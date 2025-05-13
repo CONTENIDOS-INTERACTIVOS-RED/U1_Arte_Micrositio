@@ -168,15 +168,35 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://artsandculture.google.com/partner/bogota-museum-of-modern-art-mambo" target="_blank" rel="noopener noreferrer") Google Arts and Culture. Museo de Arte Moderno de Bogotá – MAMBO. (Colombia).
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://inba.gob.mx/sitios/recorridos-virtuales/museo-palacio-bellas-artes/" target="_blank" rel="noopener noreferrer") Palacio de Bellas Artes. (México).
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=EWamLI-9cbo" target="_blank" rel="noopener noreferrer") Detrás del arte. (2019, 29 de enero). Introducción a la composición de la pintura. [Video] YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=-m_hg5ZtGX8" target="_blank" rel="noopener noreferrer") Cápsulas del Conocimiento CUAIEED – UNAM. (2019, 5 de junio). Arte Antiguo China. [Video] YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=o6yRcT8Iz-o" target="_blank" rel="noopener noreferrer") Cápsulas del Conocimiento CUAIEED – UNAM. (2023, 12 de junio). Arte Antiguo Japón. [Video] YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=lJGk9lRuG9Y" target="_blank" rel="noopener noreferrer") Cápsulas del Conocimiento CUAIEED – UNAM. (2023, 16 de junio). Arte Antiguo India. [Video] YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=a-0ux-mn5IM" target="_blank" rel="noopener noreferrer") Cápsulas del Conocimiento CUAIEED – UNAM. (2019, 30 de mayo). Arte Antiguo Persia. [Video] YouTube.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.bbc.com/mundo/articles/c047kgd9zz8o#:~:text=El%20ejemplo%20m%C3%A1s%20antiguo%20de,arte%20rupestre%20m%C3%A1s%20antiguo%20anterior" target="_blank" rel="noopener noreferrer") Ghosh. P. (2024). El fascinante hallazgo de las pinturas rupestres más antiguas del mundo. BBC News Mundo.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

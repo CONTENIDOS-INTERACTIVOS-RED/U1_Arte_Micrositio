@@ -129,16 +129,16 @@
               p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
   
               p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
-              p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+                a(href="https://www.youtube.com/watch?v=y3HF50tK8M" target="_blank" rel="noopener noreferrer") HISTORY LATINOAMÉRICA. (2019, 27 de julio). Biografías en un minuto - Leonardo da Vinci. [Video] YouTube.
+  
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.senalmemoria.co/articulo/arte-rupestre-en-colombia" target="_blank" rel="noopener noreferrer") RTVC. SEÑAL MEMORIA. (2021). Arte rupestre en Colombia: comunicaciones ancestrales.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://uniandes.edu.co/es/noticias/arte-y-cultura/historias-del-arte-en-colombia" target="_blank" rel="noopener noreferrer") SOLANO, J. LOZADA, N. ACOSTA, O. (2022). Historias del arte en Colombia: identidades, materialidades, migraciones y geografías. Universidad de los Andes. Colombia.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

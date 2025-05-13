@@ -96,7 +96,38 @@
         .col-lg-4.d-none.d-sm-block
           figure
             img(src="@/assets/curso/tema4/3.png", data-aos="zoom-in").mb-4.mb-lg-0
-      
+
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://artspaces.kunstmatrix.com/en/exhibitions" target="_blank" rel="noopener noreferrer") Kunstmatriz. (Estados Unidos).
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://cursosgratisunam.com/arte/apreciacion/" target="_blank" rel="noopener noreferrer") Cursos Gratis UNAM. Curso de apreciación del arte para no artistas.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://cursosgratisunam.com/arte/museologia/" target="_blank" rel="noopener noreferrer") Cursos Gratis UNAM. Curso de Museología.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.artsy.net/institutions" target="_blank" rel="noopener noreferrer") Plataforma Artsy.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://evemuseografia.com/2015/11/30/breve-historia-de-los-museos/" target="_blank" rel="noopener noreferrer") EVE MUSEOS+ INNOVACIÓN. (2025). Una nueva era para nuestros museos.
+
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>
