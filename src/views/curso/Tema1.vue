@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Patrimonio mundial'")
+  BannerInterno(:subTitulo="'1.Bellas artes'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     p Las bellas artes son la clasificación de las manifestaciones artísticas creativas que se enfocan en la expresión estética y la creación de obras valoradas por su belleza o su mensaje. Se considera que las bellas artes incluyen siete disciplinas principales: 

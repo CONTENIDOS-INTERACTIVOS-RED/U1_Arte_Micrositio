@@ -15,7 +15,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Patrimonio mundial',
+        titulo: 'Bellas artes',
         desarrolloContenidos: true,
         subMenu: [
           {
