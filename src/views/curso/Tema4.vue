@@ -75,7 +75,7 @@
               | Escultura
             span.mb-0.me-4
               i.fas.fa-arrow-circle-right.me-2
-              | Literatura
+              | Danza
             span.mb-0.me-4
               i.fas.fa-arrow-circle-right.me-2
               | Música
@@ -90,7 +90,7 @@
       .row.mb-5
         .col-lg-8
           .bg-color-1.px-4.py-4(data-aos="fade-left").mb-4
-            p.mb-0Esa es la razón por la cual se le llama al cine el séptimo arte o la séptima manifestación artística, pues sus productos combinan todas las artes anteriores entre imágenes, sonido, movimiento y narrativa. 
+            p.mb-0 Esa es la razón por la cual se le llama al cine el séptimo arte o la séptima manifestación artística, pues sus productos combinan todas las artes anteriores entre imágenes, sonido, movimiento y narrativa. 
           
           p(data-aos="fade-left") En otra clasificación, las artes plásticas incluyen aquellas que usan materiales susceptibles de ser moldeados, aquí en la clasificación, estarían la pintura, la escultura, la arquitectura, el dibujo y la artesanía.
         .col-lg-4.d-none.d-sm-block

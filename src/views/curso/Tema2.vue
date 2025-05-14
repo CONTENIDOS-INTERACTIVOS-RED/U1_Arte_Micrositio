@@ -164,7 +164,7 @@
             .row.justify-content-center
               .col-lg-8
                 p Museo de Arte Moderno de Bogotá, MAMBO, brinda un espacio que visibiliza las manifestaciones artísticas y culturales en Bogotá; un lugar cercano, seguro e incluyente que se abre para el diálogo, el aprendizaje y el entretenimiento a través del arte. Afirma que el arte es una herramienta de transformación social.
-                p Cuenta con más de 4.700 obras de reconocidos artistas colombianos como Juan Antonio Roda, Carlos Rojas, Guillermo Wiedemann, Ruvan Afanador, Omar Rayo, Antonio Caro, Beatriz González, Miguel Ángel Rojas, David Manzur, María José Arjona, Juan Manuel Echavarría, Feliza Bursztyn, Óscar Muñoz, y de internacionales como Salvador Dalí, Carlos Cruz-Diez, Marcel Broodthaers, Andy Warhol, Man Ray, Leo Matiz y Cildo Meireles.
+                p Cuenta con más de 4.700 obras de reconocidos artistas colombianos como Juan Antonio Roda, Carlos Rojas, Guillermo Wiedemann, Ruven Afanador, Omar Rayo, Antonio Caro, Beatriz González, Miguel Ángel Rojas, David Manzur, María José Arjona, Juan Manuel Echavarría, Feliza Bursztyn, Óscar Muñoz, y de internacionales como Salvador Dalí, Carlos Cruz-Diez, Marcel Broodthaers, Andy Warhol, Man Ray, Leo Matiz y Cildo Meireles.
                 p.mb-2 Enlace de visita o recorridos virtuales:
                 a.anexo.mb-4.bg-white.w-fit(href="https://artsandculture.google.com/partner/bogota-museum-of-modern-art-mambo" target="_blank")
                   .anexo__icono(:style="{'background-color': '#DBE7FC'}")

@@ -130,15 +130,15 @@
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.youtube.com/watch?v=y3HF50tK8M" target="_blank" rel="noopener noreferrer") HISTORY LATINOAMÉRICA. (2019, 27 de julio). Biografías en un minuto - Leonardo da Vinci. [Video] YouTube.
+                a(href="https://www.youtube.com/watch?v=-y3HF5OtK8M" target="_blank" rel="noopener noreferrer") HISTORY LATINOAMÉRICA. (2019, 27 de julio). Biografías en un minuto - Leonardo da Vinci. [Video] YouTube.
   
               p.d-flex.my-4
                 img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://www.senalmemoria.co/articulo/arte-rupestre-en-colombia" target="_blank" rel="noopener noreferrer") RTVC. SEÑAL MEMORIA. (2021). Arte rupestre en Colombia: comunicaciones ancestrales.
+                a(href="https://www.senalmemoria.co/arte-rupestre-en-colombia" target="_blank" rel="noopener noreferrer") RTVC. SEÑAL MEMORIA. (2021). Arte rupestre en Colombia: comunicaciones ancestrales.
 
               p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://uniandes.edu.co/es/noticias/arte-y-cultura/historias-del-arte-en-colombia" target="_blank" rel="noopener noreferrer") SOLANO, J. LOZADA, N. ACOSTA, O. (2022). Historias del arte en Colombia: identidades, materialidades, migraciones y geografías. Universidad de los Andes. Colombia.
+                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+                span SOLANO, J. LOZADA, N. ACOSTA, O. (2022). Historias del arte en Colombia: identidades, materialidades, migraciones y geografías. Universidad de los Andes. Colombia.
   
             .col-12.col-md-6.col-lg-3.offset-lg-1
               figure

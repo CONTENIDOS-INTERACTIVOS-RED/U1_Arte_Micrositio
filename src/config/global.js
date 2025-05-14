@@ -125,11 +125,6 @@ export default {
       link:
         'https://igeca.net/blog/389-patrimonio-material-e-inmaterial-definicion-diferencias-y-ejemplos#:~:text=Volviendo%20a%20las%20definiciones%2C%20el,determinado%20lugar%20o%20grupo%20social',
     },
-    {
-      referencia: 'EVE+INNOVACIÓN. (2025). Museos y exposiciones.',
-      link:
-        'http://efaidnbmnnibpcajpcglclefindmkaj/https://evemuseografia.com/wp-content/uploads/2024/12/CATALOGO-2025-ESP-FINAL.pdf',
-    },
   ],
   glosario: [
     {
