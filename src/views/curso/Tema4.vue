@@ -61,7 +61,7 @@
           figure
             img(src="@/assets/curso/tema4/2.png", data-aos="zoom-in")
         .col-lg-8
-          p(data-aos="fade-left").mb-4 En el año 1911, el poeta italiano Riccioto Canudo, publicó el Manifiesto de las siete artes, en el cual enumeran las artes desde la antigüedad, demostrando, a su vez, que el arte es un lenguaje universal para disfrutar la belleza, la estética y la cultura. Plantea que su origen viene de la antigua Grecia y que su evolución ha llevado a la enumeración de las “artes” que en su expresión más académica son las Bellas Artes. Estas son:
+          p(data-aos="fade-left").mb-4 En el año 1911, el poeta italiano Riccioto Canudo, publicó el Manifiesto de las siete artes, en el cual enumeran las artes desde la antigüedad, demostrando, a su vez, que el arte es un lenguaje universal para disfrutar la belleza, la estética y la cultura. Plantea que su origen viene de la antigua Grecia y que su evolución ha llevado a la enumeración de las "artes" que en su expresión más académica son las Bellas Artes. Estas son:
       
           .bg-color-3.p-4(data-aos="fade-left")
             span.mb-0.me-4
@@ -97,6 +97,11 @@
           figure
             img(src="@/assets/curso/tema4/3.png", data-aos="zoom-in").mb-4.mb-lg-0
 
+      .bg-full-width.border-top.actividad.bg-color-actividad
+        .p-4.p-md-5
+          #Actividad                
+            <Actividad :cuestionario="cuestionario"/>
+
       .bg-full-width.border-top.color-primario
         .p-4.p-md-5
           h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -131,7 +136,191 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema4',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'El arte es una forma de expresión humana que no manifiesta la visión personal de la realidad o la imaginación, lo que podría afectar su apreciación por cualquiera de los sentidos.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El arte sí manifiesta la visión personal de la realidad o la imaginación.',
+            mensaje_incorrecto:
+              'Incorrecto. El arte sí manifiesta la visión personal de la realidad o la imaginación.',
+          },
+          {
+            id: 2,
+            texto: 'No es una categoría de las artes:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Bellas artes: pintura, escultura, música, teatro, danza, cine y arquitectura',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Artes aplicadas: diseño gráfico, diseño de moda, oficios y cerámica.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Artes migratorias: las que están asociadas a episodios de migración y guerra',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Artes performáticas: teatro, danza, música y performance.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! No existe la categoría de artes migratorias.',
+            mensaje_incorrecto:
+              'Incorrecto. La respuesta correcta es Artes migratorias.',
+          },
+          {
+            id: 3,
+            texto: '¿Quién fue Leonardo Da Vinci?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Uno de los grandes maestros del renacimiento europeo. Pintor, anatomista, arquitecto, paleontólogo, botánico, escritor, escultor, filósofo, ingeniero, inventor, músico, poeta y urbanista.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto:
+                  'El Astrólogo más popular de la edad media por su curiosidad y capacidades científicas del espacio celeste, concediéndole un gran lugar en la historia del arte.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Un pintor rechazado de la edad antigua cuyas obras vieron la luz en la modernidad y actualmente se encuentran en los principales museos del mundo',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Un Papa Católico extraordinario al crear el arte que hace parte de la capilla Sixtina.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! Da Vinci fue uno de los grandes maestros del renacimiento europeo y un polímata.',
+            mensaje_incorrecto:
+              'Incorrecto. La respuesta correcta es la opción A.',
+          },
+          {
+            id: 4,
+            texto: 'El arte en la cultura Oriental:',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'No tuvo un desarrollo hasta después de la edad moderna',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto:
+                  'Tuvo sus principales hitos fueron en la edad contemporánea',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Está inspirado en el desarrollo cultural y artístico de la cultura occidental',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto:
+                  'Demuestra los grandes desarrollos, innovaciones, creaciones y expresiones, desde la edad antigua, siendo fuente de inspiración también en algunos momentos históricos de la cultura occidental.',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El arte oriental ha sido fuente de inspiración y desarrollo desde la antigüedad.',
+            mensaje_incorrecto:
+              'Incorrecto. La respuesta correcta es la opción D.',
+          },
+          {
+            id: 5,
+            texto:
+              'El Museo del Prado es uno de los museos de arte más importantes del mundo, reconocido por su extensa colección de pintura europea, principalmente de los siglos XVI al XIX.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto:
+              '¡Correcto! El Museo del Prado es reconocido mundialmente por su colección de pintura europea.',
+            mensaje_incorrecto:
+              'Incorrecto. La respuesta correcta es Verdadero.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
 }
 </script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>
