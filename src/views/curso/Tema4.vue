@@ -64,27 +64,36 @@
           p(data-aos="fade-left").mb-4 En el año 1911, el poeta italiano Riccioto Canudo, publicó el Manifiesto de las siete artes, en el cual enumeran las artes desde la antigüedad, demostrando, a su vez, que el arte es un lenguaje universal para disfrutar la belleza, la estética y la cultura. Plantea que su origen viene de la antigua Grecia y que su evolución ha llevado a la enumeración de las "artes" que en su expresión más académica son las Bellas Artes. Estas son:
       
           .bg-color-3.p-4(data-aos="fade-left")
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Arquitectura 
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Pintura
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Escultura
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Danza
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Música
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Poesía
-            span.mb-0.me-4
-              i.fas.fa-arrow-circle-right.me-2
-              | Cine
+            .row.justify-content-start.align-items-center
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Arquitectura 
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Pintura
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Escultura
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Danza
+            .row.justify-content-start.align-items-center
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Música
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Poesía
+              .col-lg-3
+                span.mb-0.me-4
+                  i.fas.fa-arrow-circle-right.me-2
+                  | Cine
               
 
       .row.mb-5
